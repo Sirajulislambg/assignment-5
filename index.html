@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Sector</title>
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="mx-auto">
+
+    <header class="mx-auto my-6">
+        <div class="hero min-h-screen" style="background-image: url(img/championLege.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+            <div class="grid grid-cols-3 gap-4 w-full mx-auto">
+                <!-- 1st item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-1.webp" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Lionel Messi</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT1</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-2.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Neymar Jr</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)" >SELECT2</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-3.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Kylian Mbappé</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT3</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-5.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Ángel Di María</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT4</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5th item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-6.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Cristiano Ronaldo</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT5</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6th item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-7.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">gareth bale</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT6</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7th item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-8.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">karimbenzema</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT7</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8th item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="img/player-9.jpg" alt="Shoes" class="rounded-xl w-full h-20" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Neymar Jr</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT8</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9th item -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10 h-40">
+                        <img src="img/player-10.jpg" alt="Shoes" class="rounded-xl w-full h-55" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Lionel Messi</h2>
+                        <p> <span>36 Goals</span> <span>.</span> <span>120 Assist</span></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary" onclick="selectPlayer(this)">SELECT9</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ... -->
+            <div class="mx-auto bg-current p-20 rounded-xl">
+                <div class="my-4 text-white h-60">
+                    <h1 class="text-3xl my-4">Selected - V (<span id="counter">0</span>)</h1>
+                    <div class="" id="player-body">
+
+                    </div>
+                </div>
+                <div class="inline my-4 text-white">
+                  <p >Per Player <input type="text" placeholder="Type here"
+                        class="input input-bordered input-info w-full max-w-xs my-4 text-black" id="per-player" /></p>
+                    <button class="btn btn-success my-6"  id="cal">Calculate</button>
+                    <!-- onclick="calculate()"  problem onClick -->
+                    </div>
+                  <div class="my-6 text-white">
+                    <p class="my-4" >Player Expenses :<span id="total-per-player"> 5000</span></p>
+                    
+                    <p >Manager <input type="text" placeholder="Type here"
+                            class="input input-bordered input-info w-full max-w-xs my-6 text-black" id="manger-cost" /></p>
+                    
+                    <p >Coach <input type="text" placeholder="Type here"
+                            class="input input-bordered input-info w-full max-w-xs my-6 text-black" id="coch-cost" /></p>
+                    <button class="btn btn-success text-center my-6 text-white" id="final">Calculate Total</button>
+                    <p class="text-white">Total :<span id="final-cost-text"> 11000</span></p>
+                  </div>
+               
+
+            </div>
+        </div>
+    </main>
+
+    <script src="player.js"></script>
+</body>
+
+</html>
